@@ -2,7 +2,9 @@
 
 Socializer is a modern social networking platform built with Next.js, Postgres, Prisma, Clerk, and TypeScript. It enables users to connect, share moments, and engage with content seamlessly.
 
-## Deployed Website Link : socializer-beige.vercel.app
+## Deployed Website Link :
+
+socializer-beige.vercel.app
 
 ## Features
 
