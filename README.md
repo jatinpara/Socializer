@@ -4,7 +4,7 @@ Socializer is a modern social networking platform built with Next.js, Postgres, 
 
 ## Deployed Website Link :
 
-socializer-beige.vercel.app
+[Socializer](https://socializer-beige.vercel.app)
 
 ## Features
 
