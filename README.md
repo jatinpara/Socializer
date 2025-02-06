@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Socializer
 
-## Getting Started
+Socializer is a modern social networking platform built with Next.js, Postgres, Prisma, Clerk, and TypeScript. It enables users to connect, share moments, and engage with content seamlessly.
 
-First, run the development server:
+Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Authentication & Authorization
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Secure user authentication using Clerk.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Role-based access control.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+UI & UX
 
-## Learn More
+Dark/Light mode support.
 
-To learn more about Next.js, take a look at the following resources:
+Styled with Tailwind CSS and Shadcn.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Core Functionality
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+User profiles with editable details.
 
-## Deploy on Vercel
+Post creation, editing, and deletion.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Like and comment on posts.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Notifications for user interactions.
+
+Optimistic UI updates for a smooth experience.
+
+API & Data Management
+
+Server Components and Client Components integration.
+
+Server Actions for seamless form handling.
+
+API routes with Route Handlers.
+
+Efficient data fetching, caching, and revalidation.
+
+Dynamic and static routing.
+
+File Uploads & Media Handling
+
+Image uploads using UploadThing.
+
+Profile picture and post image support.
+
+Database & Backend
+
+PostgreSQL database powered by Prisma ORM.
+
+Server-side operations optimized for performance.
+
+Error Handling & UX Enhancements
+
+Custom error pages (error.tsx, not-found.tsx).
+
+Loading states with loading.tsx.
+
+Technologies Used
+
+Frontend
+
+Next.js (App Router)
+
+TypeScript
+
+Tailwind CSS & Shadcn
+
+Backend
+
+Next.js Route Handlers
+
+Prisma ORM
+
+PostgreSQL
+
+Clerk for authentication
+
+Deployment
+
+Optimized for production deployment.
+
+Future Improvements
+
+Real-time messaging system.
+
+Enhanced search and filtering.
+
+Improved recommendations and content discovery.
+
+Socializer is designed to provide a seamless and engaging social media experience. With modern technologies and best practices, it ensures a scalable and performant platform for users to connect and share content.
+
