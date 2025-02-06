@@ -1,94 +1,120 @@
-Socializer
+# Socializer
 
 Socializer is a modern social networking platform built with Next.js, Postgres, Prisma, Clerk, and TypeScript. It enables users to connect, share moments, and engage with content seamlessly.
 
-Features
+## Deployed Website Link : socializer-beige.vercel.app
 
-Authentication & Authorization
+## Features
 
-Secure user authentication using Clerk.
+### Authentication
+- Secure user authentication using Clerk.
 
-Role-based access control.
+### UI & UX
+- Dark/Light mode support.
+- Styled with Tailwind CSS and Shadcn.
+- Responsive and accessible design.
 
-UI & UX
+### Core Functionality
+- User profiles with editable details.
+- Post creation, editing, and deletion.
+- Like, comment, and delete posts.
+- Follow/unfollow users.
+- Notifications for user interactions.
+- Optimistic UI updates for a smooth experience.
 
-Dark/Light mode support.
+### API & Data Management
+- Server Components and Client Components integration.
+- Server Actions for seamless form handling.
+- API routes with Route Handlers.
+- Efficient data fetching, caching, and revalidation.
+- Dynamic and static routing.
 
-Styled with Tailwind CSS and Shadcn.
+### File Uploads & Media Handling
+- Image uploads using UploadThing.
+- Profile picture and post image support.
 
-Core Functionality
+### Database & Backend
+- PostgreSQL database powered by Prisma ORM.
+- Secure and efficient data storage.
 
-User profiles with editable details.
+### Error Handling & UX Enhancements
+- Custom error pages (`not-found.tsx`).
+- Graceful handling of API failures.
 
-Post creation, editing, and deletion.
+## Technologies Used
 
-Like and comment on posts.
+### Frontend
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS & Shadcn
 
-Notifications for user interactions.
+### Backend
+- Next.js Route Handlers
+- Prisma ORM
+- PostgreSQL
+- Clerk for authentication
+- Server Actions for form handling
 
-Optimistic UI updates for a smooth experience.
+### Deployment
+- Optimized for production deployment.
 
-API & Data Management
+## Screenshots
 
-Server Components and Client Components integration.
+### HomePage (For LoggedOut Users)
 
-Server Actions for seamless form handling.
+<div gap: 10px;">
+    <img src="screenshots/LoggedOut_Home.png" alt="" width="500"/>
+</div>
 
-API routes with Route Handlers.
+### Authentication Page
 
-Efficient data fetching, caching, and revalidation.
+<div gap: 10px;">
+    <img src="screenshots/SignIn-SignUpPage.png" alt="" width="500"/>
+</div>
 
-Dynamic and static routing.
+### HomePage (For LoggedIn Users)
 
-File Uploads & Media Handling
+<div gap: 10px;">
+    <img src="screenshots/LoggedIn_Home.png" alt="" width="500"/>
+</div>
 
-Image uploads using UploadThing.
+### DarkMode
 
-Profile picture and post image support.
+<div gap: 10px;">
+    <img src="screenshots/DarkMode.png" alt="" width="500"/>
+</div>
 
-Database & Backend
+### Profile Page
 
-PostgreSQL database powered by Prisma ORM.
+<div gap: 10px;">
+    <img src="screenshots/Profile.png" alt="" width="500"/>
+</div>
 
-Server-side operations optimized for performance.
+### Edit Profile Popup
 
-Error Handling & UX Enhancements
+<div gap: 10px;">
+    <img src="screenshots/edit_profile.png" alt="" width="500"/>
+</div>
 
-Custom error pages (error.tsx, not-found.tsx).
+### Profile Posts 
 
-Loading states with loading.tsx.
+Here users can see posts made by them and the posts they liked.
 
-Technologies Used
+<div gap: 10px;">
+    <img src="screenshots/Profile_Posts.png" alt="" width="500"/>
+</div>
 
-Frontend
+### Notifications Section
 
-Next.js (App Router)
+<div gap: 10px;">
+    <img src="screenshots/Notifications.png" alt="" width="500"/>
+</div>
 
-TypeScript
-
-Tailwind CSS & Shadcn
-
-Backend
-
-Next.js Route Handlers
-
-Prisma ORM
-
-PostgreSQL
-
-Clerk for authentication
-
-Deployment
-
-Optimized for production deployment.
-
-Future Improvements
-
-Real-time messaging system.
-
-Enhanced search and filtering.
-
-Improved recommendations and content discovery.
+## Future Improvements
+- Real-time messaging system.
+- Advanced search and filtering.
+- AI-powered content recommendations.
+- Group and community features.
+- Stories and short video support.
 
 Socializer is designed to provide a seamless and engaging social media experience. With modern technologies and best practices, it ensures a scalable and performant platform for users to connect and share content.
-
